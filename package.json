@@ -21,7 +21,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src/**/*"
+    "lint": "eslint src/**/*",
+    "codegen:get": "graphql-codegen --config codegen.yml",
+    "codegen:init": "graphql-codegen init"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^1.8.1",
     "@typescript-eslint/eslint-plugin": "^2.3.3",
     "@typescript-eslint/parser": "^2.3.3",
     "eslint": "^6.5.1",
@@ -46,6 +49,11 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "@graphql-codegen/typescript": "1.8.1",
+    "@graphql-codegen/typescript-operations": "1.8.1",
+    "@graphql-codegen/typescript-react-apollo": "1.8.1",
+    "@graphql-codegen/typescript-graphql-files-modules": "1.8.1",
+    "@graphql-codegen/introspection": "1.8.1"
   }
 }
