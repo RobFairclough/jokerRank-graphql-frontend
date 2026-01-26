@@ -41,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "^1.8.1",
+    "@graphql-codegen/cli": "^1.21.8",
     "@typescript-eslint/eslint-plugin": "^2.3.3",
     "@typescript-eslint/parser": "^2.3.3",
     "eslint": "^6.5.1",
